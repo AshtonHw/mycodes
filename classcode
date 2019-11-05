@@ -1,0 +1,31 @@
+package com.example1;
+
+import java.util.Scanner;
+
+public class CleanCode {
+
+	public static void main(String[] args) {
+		// Create a scanner object to collect input
+Scanner input = new Scanner (System.in);
+		//Generate a random number between 1 and 10
+		int rand = (int) (Math.random()*10)+1;
+		//Generate a random number between 1 and 10
+int rand2 = (int) (Math.random()*10)+1;
+        //Prompt the user to enter an answer
+System.out.printf("what is %d + %d ?",rand,rand2);
+        //Store the users response into a variable
+int response = input.nextInt();
+        //Close the Scanner object
+        input.close();
+        //test the users response to confirm if its correct
+if(response == rand +rand2){
+	//Print out a statement if the users answer is correct
+	System.out.println("Correct, Great Job! I see ya!");
+}
+else {
+	//Print out a statement if the users answer is incorrect
+		System.out.println("Incorrect, hell naw, Try again myboy");
+		
+	}
+}
+	}
