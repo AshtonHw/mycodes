@@ -1,0 +1,20 @@
+package com.example1;
+
+import java.util.Scanner;
+
+public class Three {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner numbers = new Scanner(System.in);
+		System.out.println("enter 1st number");
+		int x= numbers.nextInt();
+		System.out.println("enter 2nd number");
+		int z= numbers.nextInt();
+		System.out.println("Expected output:"+ x+"*"+z+"="+(x*z));
+
+			}
+	{	}
+
+}
