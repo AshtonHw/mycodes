@@ -1,0 +1,21 @@
+package com.example1;
+
+import java.util.Scanner;
+
+
+
+public class ThisThings {
+
+	
+		public static void main(String[] args) {
+			Scanner input= new Scanner(System.in);
+System.out.println("enter radius of a circle");
+
+double n = input.nextDouble();
+
+System.out.println(Math.PI*Math.pow(n,2));
+input.close();
+
+	}
+
+}
