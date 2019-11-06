@@ -1,0 +1,139 @@
+package notes;
+
+public class java_basics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// String one = "public static void main is the main method in the program.";
+		// System.out.println(); - Execution statement
+		// import java.util.Scanner - To allow scanner into package
+		// Scanner (variable/identifier) = new Scanner(System.in); - To create a scanner for the method
+		// Scanner.close(); - To close scanner when done
+	}
+
+}
+/*
+							// Anatomy of a Java Program //
+		// Class
+		// Method - To run a class you need to have a method 
+		// Statements - Lines of code
+		// Statement terminator  -  ;
+		// Reserved words - Words that can not be used as variables due to already being a part of the syntax of Java
+		// Comments
+		// Blocks
+
+								// Special Symbols //
+		// {} - Denotes a block to enclose statements.
+		// [] - Denotes an array
+		// () - Used with methods 
+		// // - Precedes a comment line
+		// "" - Enclosing a string
+		// ; - Marks an end of a statement
+
+						// Declaring variables/identifiers //
+		// 	<Datatype><identifier>
+		// <Identifier> = <expression>
+
+								// Data Types //
+		// boolean - true or false	
+		// char - any character
+		// float - 
+		// long - 
+		// byte - binary
+		// double - numbers with decimals 
+		// int - numbers without decimals
+		// short - 
+
+							// Methods for Scanner Inputs //
+		// identifier.nextLine(); - reads an entire line of input as a string and advance to the next line
+		// identifier.nextByte(); - reads an integer of the bytetype
+		// identifier.nextShort(); - reads an integer of the short type
+		// identifier.nextInt(): - reads an integer of the int type
+		// identifier.nextLong(); - reads an integer of the long type
+		// identifier.nextDouble(); - reads a number of the double type
+		// identifier.nextFloat(); - reads a number of the float type
+		// identifier.next(); - the next input token from the stream
+
+									// Operators //
+ 						**		Arithmetic Operators		**
+ 		* Addition - +
+ 		* Subtraction - -
+ 		* Multiplication - *
+ 		* Division - /
+ 		* Modulus (remainder) - %
+ 
+ 						**		Relational Operators	**
+ 		* == - Equal to
+ 		* != - Not Equal to
+ 		* > - Greater than
+ 		* < - Less than
+ 		* >= - Greater than or equal to
+ 		* <= - Lesser than or equal to
+ 		* instanceOf - test whether the object is an instance of the specified type(class or subclass or interface).
+ 
+ 						**		Conditional Operators	**
+ 		* && - Checks a second condition if the first is true; both must be true 
+ 		* || - Checks the second condition if the first is false
+ 		
+ 						**		Escape Sequences	**
+ 		* \t - Insert a tab
+ 		* \b - Insert a backspace
+ 		* \n - Insert a new line
+ 		* \r - Insert a carriage return
+ 		* \f - Insert a formfeed
+ 		* \' - Insert a single quote character
+ 		* \" - Insert a double quote character
+ 		* \\ - Insert a backlash character
+ 		
+ 						**		Character Methods	**
+ 		* isDigit();
+ 		* isLetter();
+ 		* isLetterOfDigit();
+ 		* isLowerCase();
+ 		* isUpperCase();
+ 		* toLowerCase();
+ 		* toUpperCase();
+ 
+ 							**		String Methods	**
+ 		* length();
+ 		* charAt();
+ 		* concat();
+ 		* toUpperCase();
+ 		* toLowerCase();
+ 		* trim();
+
+								-------------------
+								(Comparing Strings)
+ 		* equals();
+ 		* equalsIgnoreCase();
+ 		* compareTo();
+ 		* compareToIgnoreCase();
+ 		* startsWith();
+ 		* endsWith();
+								-------------------
+							(Characters and Substrings)
+ 		* indexOf();
+ 		* indexOf(ch, fromIndex);
+ 		* lastIndexOf();
+ 		* lastIndexOf(ch, fromIndex);
+ 
+ 								-------------------
+								(Java Conditionals )
+ 		* If Else Statements 
+ 			A) Format:
+ 			If (Conditional) {
+ 				System.out.print.ln("SOmething");
+ 				If (Conditional){
+ 				
+ 				} Else {
+ 				
+ 				}
+ 			} Else if (Conditional){
+ 			
+ 			} Else (No Conditional) {
+ 			
+ 			}
+
+
+*/
