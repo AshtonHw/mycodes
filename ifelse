@@ -1,0 +1,23 @@
+package com.perscholas;
+
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		// TODO Auto-generated method stub
+		int a = 8;
+		int b = 4;
+		int c = 3;
+
+		System.out.println("welcome to my application");
+
+		if (a > b)
+			System.out.println("a>b");
+		else
+			System.out.println("a<b");
+
+		System.out.println("have a nice day");
+	}
+
+}
+
+//{CTRL+SHIFT+F} TO LINE MY CODE UP CLEAN TYPE SHIT
