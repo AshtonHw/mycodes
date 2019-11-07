@@ -1,0 +1,47 @@
+package com.perscholas;
+
+import java.util.Scanner;
+
+public class Tax {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Single = 0");
+		System.out.println("Married filed Together = 1");
+		System.out.println("Married filed Separately");
+		System.out.println("Head of Household");
+		
+		System.out.println("Enter the number that corresponds to your filing choice");
+		int relation = input.nextInt();
+		
+		System.out.println("Enter taxable Monies");
+		double wages = input.nextDouble();
+		
+		double taxrate1 = (.20);
+		double taxrate2 = (.25);
+		double taxrate3 = (.39);
+		double taxrate4 = (.56);
+		
+		
+		switch (relation)
+		{
+		case 0:
+			if(wages <= 2137.00)
+				System.out.println(taxrate1 * wages);
+			else if (wages <=45000.00)
+				System.out.println(taxrate2 * wages);
+			else if (wages <=78000.00)
+				System.out.println(taxrate3 * wages);
+			else if (wages <=89000.00)
+				System.out.println(taxrate4 * wages);
+			else if (wages <=88990.00);
+				
+				
+		}
+		
+	}
+
+}
