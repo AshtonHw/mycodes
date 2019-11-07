@@ -1,0 +1,28 @@
+package com.example1;
+
+import java.util.Scanner;
+
+public class Conditionall {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("enter a number");
+		int num = 87;
+
+		int c = input.nextInt();
+		System.out.println("enter 2nd number");
+		int b = input.nextInt();
+		System.out.println("enter 3rd number");
+		int a = input.nextInt();
+
+		if (num >= c )
+			System.out.println("try harder");
+		else if (num <= b)
+			System.out.println("1 mo time my boy");
+		else if (num >= a)
+			System.out.println("thats the 1");
+	}
+
+}
