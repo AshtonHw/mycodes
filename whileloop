@@ -1,0 +1,28 @@
+package com.example1;
+
+import java.util.Scanner;
+
+public class Rnd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner input = new Scanner (System.in);
+		//Generate a random number between 1 and 10
+		int rand = (int) (Math.random()*10)+1;
+		//Generate a random number between 1 and 10
+int rand2 = (int) (Math.random()*10)+1;
+        //Prompt the user to enter an answer
+
+        //Store the users response into a variable
+int response = 0;
+        //Close the Scanner object
+      
+        //test the users response to confirm if its correct
+//if(response == rand +rand2)
+	//Print out a statement if the users answer is correct
+	//System.out.println("Correct, Great Job! I see ya!");
+while(response != rand + rand2) {
+	System.out.printf("what is %d + %d ?",rand,rand2);
+	response = input.nextInt();
+}} }
+	
