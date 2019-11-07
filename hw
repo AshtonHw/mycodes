@@ -1,0 +1,21 @@
+package com.perscholas;
+
+public class Homework {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      int age=14;
+      
+      if(age<16)
+    	  System.out.println("cant drive");
+     if(age<18)
+    	 System.out.println("cant vote");
+	if(age<25)
+		System.out.println("cant rent a car");
+if(age>=25)
+System.out.println("do anything legal");
+
+	}
+	}
+
+
