@@ -1,0 +1,24 @@
+public class Sumof {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+//Initialize the response variable with a value of -1
+		int response = -1;
+//Initialize the sum variable with a value of 0
+		int sum = 0;
+//Begin while loop for calculating the sum of values. loop will run as long
+		while (response != 0) {
+			// prompt the user to enter a number or optionally enter the number 0
+			System.out.println("enter a number to calculate the sum");
+//store the users response into the response variable
+			response = input.nextInt();
+
+			sum += response;
+
+		}
+
+		System.out.printf("the total sum for the number u entered is %d", sum);
+
+	}
+}
