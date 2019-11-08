@@ -1,0 +1,24 @@
+package com.example1;
+
+import java.util.Scanner;
+
+public class Sumof {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner input= new Scanner(System.in);
+int response = -1;
+int sum = 0;
+while(response != 0)
+{System.out.println("enter a number to calculate the sum");	
+
+response = input.nextInt();
+
+sum += response;
+
+}
+
+System.out.printf("the total sum for the number u entered is %d",sum);
+
+	}
+}
