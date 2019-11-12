@@ -1,0 +1,54 @@
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		double coffee = 2.5;
+		double tea = 1.99;
+		double sandwich = 5.86;
+		
+		System.out.println("Enter your choices:\n1.Add Coffee: $2.50 \n2.Add Tea :$1.99 \n3.Add Sandwich : $5.86 \n4.Exit");
+		double num = input.nextInt();
+		
+		
+		/*while(num != 4) {
+			if(num ==1 ||num==2 ||num==3) {
+				total += num;
+				System.out.println("Enter your choices:\n1.Add Coffee: $2 \n2.Add Tea :$1\n3.Add Sandwich : $3\n4.Exit");
+				num = input.nextInt();				
+			}
+			
+		}
+		System.out.println("your total is:"+total);
+		*/
+		while(num != 4) {
+			if(num ==1) {
+				System.out.println("Enter number of coffee:");
+				double a = input.nextInt();
+				coffee= coffee*a;
+				System.out.println("Enter your choices:\n1.Add Coffee: $2.50 \n2.Add Tea :$1.99 \n3.Add Sandwich : $5.86 \n4.Exit");
+				num = input.nextInt();
+				
+			}else if(num == 2) {
+				System.out.println("Enter number of tea:");
+				double a = input.nextInt();
+				tea= tea*a;
+				System.out.println("Enter your choices:\n1.Add Coffee: $2.50 \n2.Add Tea :$1.99 \n3.Add Sandwich : $5.86 \n4.Exit");
+				num = input.nextInt();
+				
+			}else {
+				System.out.println("Enter number of sandwich:");
+				double a = input.nextInt();
+				sandwich= sandwich*a;
+				System.out.println("Enter your choices:\n1.Add Coffee: $2.50 \n2.Add Tea :$1.99 \n3.Add Sandwich : $5.86 \n4.Exit");
+			    num = input.nextInt();
+			}
+		}
+		double total=coffee+ tea+ sandwich;
+		System.out.println("your total is:"+total);
+		
+		input.close();
+		
+		
+		
+
+	}
+	}
