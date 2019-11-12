@@ -1,0 +1,47 @@
+package com.example1;
+
+public class Methy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int y = 5;
+		int x = 6;
+		int z = 7;
+
+		// int sum = x + y + z;
+		int returnofSum = Sum(x, y, z);
+
+		// int mult = x * y * z;
+		int returnofMult = Mult(x, y, z);
+
+		// double avg = returnofSum/3;
+		Double returnofAvg = Avg(returnofSum);
+		// System.out.println(returnofSum + " " + avg + " " + mult);
+		PrentResults(returnofSum, returnofMult, returnofAvg);
+		
+	}
+
+	private static void PrentResults(int returnofSum, int returnofMult, Double returnofAvg) {
+		// TODO Auto-generated method stub
+
+	}
+
+	private static int Mult(int x, int y, int z) {
+		// TODO Auto-generated method stub
+		return x * y * z;
+	}
+
+	static int Sum(int x, int y, int z) {
+
+		int calc = x + y + z;
+		return calc;
+
+	}
+
+	static double Avg(int sum) {
+		double calc = (double)sum/3;
+		System.out.println(calc);
+		return calc;
+	}
+
+}
