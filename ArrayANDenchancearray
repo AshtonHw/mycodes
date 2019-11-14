@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Studentforloopenhanced {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		{
+	        int[] scoresArr = new int[5];
+	        String[] namesArr = new String[5];
+	        Scanner scan = new Scanner(System.in);
+	        
+	        for(int i=0; i<5; i++) {
+	            System.out.println("Enter student name: ");
+	            namesArr[i] = scan.next();
+	            System.out.println("Enter " + namesArr[i] + " score: ");
+	            scoresArr[i] = scan.nextInt();
+	        }
+	        int StudentsNo = 0;
+	        System.out.println("Enter the number of Students:");
+			StudentsNo = scan.nextInt();
+	        
+	        for(int i=0; i<5; i++) {
+	            System.out.println(namesArr[i] + " " + scoresArr[i]);
+	           
+	        }
+	        System.out.println("there are " + StudentsNo + " Students ");
+	            
+	    }
+	}
+
+}
