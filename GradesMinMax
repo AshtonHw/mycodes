@@ -1,0 +1,32 @@
+{
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		String name = "";
+		int GamesNo = 0;
+		double score = 0;
+		double min = 100;
+		double max = 0;
+		double total = 0;
+
+		System.out.println("Enter the Fantasy Players name: ");
+		name = scan.next();
+		System.out.println("What is the scores of " + name);
+		System.out.println("Enter the number of Games:");
+		GamesNo = scan.nextInt();
+		
+		
+		for (int i = 1; i <= GamesNo; i++) {
+	
+			
+			System.out.println("Enter Games# " + i + " score:");
+			score = scan.nextDouble();
+
+			if (score < min)
+				min = score;
+
+			if (score > max)
+				max = score;
+
+			total += score;
+		}
+		
