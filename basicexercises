@@ -1,0 +1,55 @@
+ //1.int a = 3; int b = 4;
+  //int sum = a + b;
+  //System.out.println(sum);
+  
+	//2.Double a = 3.6; Double b = 4.5;
+	//Double sum = a + b;
+	//System.out.println(sum);
+		
+		//3.int a = 4; double b = 5.5;
+		//double sum = a + b;
+		//System.out.println(sum);
+		
+		//4.int a = 10; int b = 5;
+		//int sum = (a/b);
+		//System.out.println(sum);
+		
+		//5.double a = 10.2; double b = 5.1;
+		//double z = (a/b);
+		//int z1 = (int)z;
+		//System.out.println(z1);
+		
+		//  ? 6. int x = 5; int y = 6;
+		//int q = (y/x);
+		//double r = (double)y;
+		//System.out.println(q);
+		 
+		
+	//7.int  numberofhats = 5; 
+	// int numberofshirts = 3;
+	//int sum = numberofhats + numberofshirts;
+	// System.out.println(sum);
+		
+		//8.Write a program where you create 3 variables that represent products at a cafe.
+		//String s = "Coffee"; String x = "Tea"; String d = "Cappuccino";
+		//The products could be beverages like coffee, cappuccino, espresso, green tea, etc.
+		//Assign prices to each product. 
+		//int Coffeeprice = 2; int Teaprice = 1; int Cappuccino = 3;
+		//Create 2 more variables called subtotal and totalSale and complete an “order” for 3 items
+		 //int subtotal = (Teaprice * 4) + (Cappuccino * 2); 
+		//of the first product,
+		//double salesTax = 2.08;
+		//4 items of the second product and 2 items of the third product.
+		
+				//Add them all together to calculate the subtotal.
+				
+				//Create a constant called SALES_TAX and add sales tax to the subtotal to obtain the totalSale amount. 
+				
+				//Be sure to format the results to 2 decimal places.
+		//System.out.println((subtotal) + salesTax);
+		
+		
+		
+	}
+
+}
