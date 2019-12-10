@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class ThrowCatchTryFinally {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double result=0;
+		
+		for (int i = 0; i < 5; i++) {
+			Scanner in = new Scanner(System.in);
+			System.out.println("enter num1:");
+
+			double a = in.nextInt();
+			System.out.println("enter num2:");
+
+			double b = in.nextInt();
+			try {
+				 result = (double) a/b;
+			} catch (Exception e) { System.out.println("ent num2:");
+				b = in.nextInt();
+				result = a/b;
+			} finally {
+				System.out.println(result);
+
+			}
+		}
+	}
+}
