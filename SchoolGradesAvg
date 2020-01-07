@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class SchoolClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner input = new Scanner(System.in);
+ArrayList<Integer>exam1= new ArrayList<Integer>();
+ArrayList<Integer>exam2= new ArrayList<Integer>();
+
+for (int i=0; i <5; i++) {
+	System.out.println("Enter Student " + (i +1) + " score on exam1:");
+	exam1.add(input.nextInt());
+	}
+for (int i=0; i<5; i++) {
+	System.out.println("Enter Student " + (i +1) + " score on exam2:");
+	exam2.add(input.nextInt());
+}
+for (int i=0; i<5; i++) {
+	System.out.println("Enter Student " + (i +1) + " score on exam2:");
+	int avg = exam1.get(i)+exam2.get(i)/2;
+	exam2.add(input.nextInt());
+
+}
+input.close();
+	}
+}
