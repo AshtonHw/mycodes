@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class ArrAyy {
+
+	public static void main(String[] args) {
+		// creating an a arr and setting the size
+		int[][] arr = new int[3][3];
+		// creating a scanner
+		Scanner in = new Scanner(System.in);
+		// looping in the rows
+		for (int r = 0; r < arr.length; r++)
+			// loooping in the columns
+			for (int c = 0; c < arr[r].length; c++)
+				// fill the array with values at row & column
+				arr[r][c] = in.nextInt();
+
+		// looping in the rows to get the 1d arrays
+		for (int[] r : arr) {
+			
+			System.out.println();
+			// looping in the column to get the values
+			for (int c : r)
+				// print value at row and column
+				System.out.print(c + " ");
+		
+			
+			in.close();
+		}
+	}
