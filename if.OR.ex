@@ -1,0 +1,26 @@
+package wk11review;
+
+import java.util.Scanner;
+
+public class Wk11review {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner in = new Scanner (System.in);
+		int no1=0 , no2=0;
+		System.out.println("Enter a number: ");
+		no1 = in.nextInt();
+		
+		System.out.println("Enter a number: ");
+		no2 = in.nextInt();
+		
+		if(no1<0 || no2<0)
+			System.out.println("Thank you");
+		else {
+			System.out.println(no1 + no2);
+			System.out.println(no1 * no2);
+			System.out.println(no1 / no2);
+		}
+		}
+	}
